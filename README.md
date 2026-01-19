@@ -18,13 +18,5 @@ The Python script runs entirely in the cloud — **no local system required**.
 ---
 
 
-## 📂 Repository Structure
-├── stock_mail.py # Main Python script that generates and sends the report
-├── requirements.txt # Python dependencies
-└── .github/
-└── workflows/
-└── run-report.yml # GitHub Actions workflow file
-
----
 
 
