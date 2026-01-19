@@ -199,7 +199,7 @@ html_body = f"""
 subject = f"NIFTY50 Sector Report | {datetime.now().strftime('%d %B %Y')}"
 msg = MIMEMultipart()
 msg['From'] = 'vidhyalakshmi@aadhan.in'
-msg['To'] = 'vidhya.arulselvan@gmail.com'
+msg['To'] = 'nithin@aadhan.in'
 msg["Subject"] = subject
 msg.attach(MIMEText(html_body, "html"))
 
@@ -217,4 +217,5 @@ except Exception as e:
     print(f"❌ Email failed: {e}")
 
 print(f"\n💡 Total NSE stocks tracked: {total_nse}")
+
 print("✅ Analysis complete!")
